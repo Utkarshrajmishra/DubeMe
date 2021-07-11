@@ -1,0 +1,368 @@
+*{
+    text-align: center;
+}
+#navbars ul{
+    
+    display: flex;
+    padding: 15px 339px;
+    margin: -8px -342px;
+    opacity:0.8;
+
+}
+#navbars
+{    
+    display: flex;
+   
+    position: relative;
+}
+
+#navbars ul li{
+    
+   
+    list-style: none;
+    
+    font-size: 1.2rem;
+
+}
+#navbars ul li a{
+    display: block;
+    padding:  3px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    color: grey;
+    margin: 12px 12px;
+    
+    
+}
+#navbars ul li a:hover{
+  
+    color: red;
+}
+#navbars ul li a img{
+    width: 67%;
+    height: 40%;
+}
+#fad{
+margin-top: -61px;
+    margin-left: 1116px;
+    padding-bottom: 15px;
+}
+#fad i
+{
+    padding: 12px 18px;
+    
+}
+
+#fad input{
+    position: relative;
+    width: 110%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+    margin-left: -234px;
+    outline-color: #444;
+    background-color: rgb(255, 255, 255);
+    border-width: thin;
+}
+#glass i{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+#fad input:hover{
+    color: #444;
+    background-color: beige;
+}
+
+#head{
+    border-radius: 2px;
+background: #ffffff;
+box-shadow:  5px 5px 6px #878787,
+             -5px -5px 6px #ffffff;
+             width: 102%;
+    margin-left: -17px;
+    margin-top: -6px;
+}
+.slider-box {
+    width     : 90%;
+    max-height: 90vh;
+    position  : relative;
+    overflow  : hidden;
+    margin    : 30px auto;
+}
+
+#slider {
+    width     : 100%;
+    display   : inline-flex;
+    transition: 0.7s;
+}
+
+#slider img {
+    width: 100%;
+}
+
+.indicators {
+    position : absolute;
+    left     : 50%;
+    bottom   : 20px;
+    transform: translateX(-50%);
+}
+
+.indicators span {
+    display      : inline-block;
+    width        : 15px;
+    height       : 15px;
+    border-radius: 50%;
+    background   : rgba(255, 255, 255, 0.5);
+    cursor       : pointer;
+}
+
+.active {
+    background: #ffff !important;
+}
+#second img
+{
+    margin-left: 25px;
+    width: 93%;
+}
+#dealofday h1
+{
+    color: #444;
+    font-family: 'Playfair Display', serif;
+}
+.deal img
+{
+    padding: 12px 12px;
+    width: 17%;
+    height: 40%;
+}
+#marvelposter h1{
+    color: #444;
+    font-family: 'Playfair Display', serif;
+}
+
+#marvelposter img
+{
+    width: 90%;
+    height: 10%;
+    margin-left: -3px;
+}
+#marvelshirt img {
+    margin-top: 12px;
+    margin-left: 3px;
+    width: 21%;
+}
+
+#showmore
+{
+    align-items: center;
+}
+#showmore button {
+    margin-top: 12px;
+    color: white;
+    background-color: rgb(187, 39, 39);
+    padding: 12px 33px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#programmer img
+{
+    margin-top: 40px;
+    margin-left: 25px;
+    width: 22%;
+}
+#shoe h1
+{
+    color: #444;
+    font-family: 'Playfair Display', serif;
+}
+#shoe1 img
+{
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 22%;
+}
+#shoe2 img{
+    margin-top: 8px;
+    margin-left: 17px;
+    width: 29%;
+}
+#shoe3 h1
+{
+    color: #444;
+    font-family: 'Playfair Display', serif;
+}
+#shoe3 img{
+    margin-top: 8px;
+    margin-left: 6px;
+    width: 18%;
+    margin-bottom: -17px;
+}
+#western img{
+    margin-top: 8px;
+    margin-left: 6px;
+    width: 18%;
+    margin-bottom: -17px;
+}
+#cat img {
+    margin-top: 8px;
+    margin-left: 6px;
+    width: 15%;
+    margin-bottom: -4px;
+}
+#brands img {
+    margin-top: 8px;
+    margin-left: 6px;
+    width: 19%;
+    margin-bottom: -4px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #2e374a;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+    margin-left: 108px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: white;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+#box
+{
+    background-color:#306692 ;
+}
+#box #com h1{
+    font-size: 3rem;
+    color: whitesmoke;
+    margin: 12px 505px;
+
+}
+ #box .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin: 35px;
+   
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  #box .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  #box .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 12px;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+   #box .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      margin: 12px 12px;
+    }
+  }
+  
+  /* Style the counter cards */
+  #box .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       text-align: center;
+    background-color: #6892b9;
+    color: whitesmoke;
+    margin-left:92px;
+    padding: 35px;
+}
+
+
+
+.footer .container h3{
+    color: whitesmoke;
+    margin:12px 428px;
+
+}
